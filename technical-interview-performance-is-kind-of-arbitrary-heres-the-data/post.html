@@ -13,6 +13,7 @@ At this point, you might say, that’s nice and all, but what’s the big deal? 
 
 <span class="heading">Performance from interview to interview is pretty volatile</span>
 
+<!-- THIS IS THE PART THAT MATTERS FOR THE VIZ -->
 Let's start with some visuals. In the graph below, every <svg width="10" height="10" viewBox="0 0 8 8"><path d="M4 0c-1.1 0-2 1.12-2 2.5s.9 2.5 2 2.5 2-1.12 2-2.5-.9-2.5-2-2.5zm-2.09 5c-1.06.05-1.91.92-1.91 2v1h8v-1c0-1.08-.84-1.95-1.91-2-.54.61-1.28 1-2.09 1-.81 0-1.55-.39-2.09-1z" /></svg> represents the mean technical score for an individual interviewee who has done 2 or more interviews on the platform<sup>2</sup>. The y-axis is standard deviation of performance, so the higher up you go, the more volatile interview performance becomes. If you hover over each <svg width="10" height="10" viewBox="0 0 8 8"><path d="M4 0c-1.1 0-2 1.12-2 2.5s.9 2.5 2 2.5 2-1.12 2-2.5-.9-2.5-2-2.5zm-2.09 5c-1.06.05-1.91.92-1.91 2v1h8v-1c0-1.08-.84-1.95-1.91-2-.54.61-1.28 1-2.09 1-.81 0-1.55-.39-2.09-1z" /></svg>, you can drill down and see how that person did in each of their interviews. Anytime you see bolded text with a dotted underline, you can hover over it to see relevant data viz. Try it now to <span class="highlighter" onmouseover="highlightAll();" onmouseout="clearHighlight();">expand everyone's performance</span>. You can also hover over the labels along the x-axis to drill into the performance of people whose means fall into those buckets.
 
 <div id="chart-container">
@@ -26,6 +27,7 @@ As you can see, <span class="highlighter" onmouseover="highlightLowDeviation()" 
   <li>If we look at <span class="highlighter" onmouseover="highlightScoreRange(3.3,4);" onmouseout="clearHighlight();">high performers</span> (mean of <span class="score">3.3</span> or higher), we still see a fair amount of variation.</li>
   <li>Things get really murky when we consider <span class="highlighter" onmouseover="highlightScoreRange(2.6, 3.3);" onmouseout="clearHighlight();">"average" performers</span> (mean between <span class="score">2.6</span> and <span class="score">3.3</span>).</li>
 </ul>
+<!-- END VIZ -->
 
 <strong>To me, looking at this data and then pretending that I had to make a hiring decision based on one interview outcome felt a lot like peering into some beautiful, lavishly appointed parlor through a keyhole.</strong> Sometimes you see a piece of art on the wall, sometimes you see the liquor selection, and sometimes you just see the back of the couch.
 
