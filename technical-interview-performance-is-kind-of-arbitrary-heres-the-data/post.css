@@ -1,0 +1,76 @@
+/* OPTIONAL STYLES */
+
+#chart {
+  margin: 0 auto;
+}
+
+#chart-container .title {
+  font-size: 18px;
+}
+
+#chart svg { width:100%; height: 100% }
+
+.tick circle {
+  fill-opacity: 0.4;
+}
+
+/* THIS IS USED TO CALCULATE WIDTH OF CHART */
+#chart-container {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 400px;
+}
+
+/* NECESSARY STYLES */
+span.highlighter {
+  border-bottom: 1px dotted steelblue;
+  color: #428bca !important;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+span.highlighter:hover {
+    color: #2a6496;
+}
+
+.mean, g.cell {
+  cursor: pointer;
+}
+circle.node {
+  pointer-events: none;
+}
+line.link {
+  stroke: #a0a0a0;
+  stroke-opacity: 0.2;
+  stroke-width: 1;
+  stroke-dasharray: 10 1;
+  pointer-events: none;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: 'Open Sans';
+}
+.yaxis text {
+  font-size: 9pt;
+}
+.xaxis text {
+  font-size: 16px;
+}
+.label {
+  font-family: 'Open Sans';
+  text-anchor: middle;
+  font-size: 16px;
+  fill: #333332;
+}
+
+rect.range {
+  fill: #eee;
+}
