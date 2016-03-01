@@ -16,3 +16,5 @@ This post is special because it features a highly interactive data visualization
   </body>
 </html>
 ```
+
+Note that some of the markup in `post.html` is specific to the blog's styling and won't carry over. The section that must be reproduced as-is is commented accordingly.
